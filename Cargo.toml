@@ -1,10 +1,18 @@
 [package]
-
 name = "bloomfilter-rs"
-version = "0.0.1"
-authors = ["Dave Schwantes <dave.schwantes@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+authors = ["dierbei <q1628652790@gmail.com>"]
+description = "A space-efficient probabilistic data structure implemented in Rust"
+repository = "https://github.com/dierbei/bloomfilter-rs"
+license = "MIT"
+keywords = ["bloom-filter", "data-structure", "probabilistic", "hash"]
+categories = ["data-structures", "algorithms"]
 readme = "README.md"
+documentation = "https://docs.rs/bloomfilter-rs"
 
-description = """
-A Bloom filter library built to play with Rust.
-"""
+[dependencies]
+bitvec = "1.0.1"
+murmur3 = "0.5.1"
+sha2 = "0.10.6"
+md-5 = "0.10.5"

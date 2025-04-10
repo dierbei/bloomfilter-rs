@@ -1,2 +1,37 @@
-target
+# Rust build artifacts
+/target/
+**/*.rs.bk
 Cargo.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug files
+*.pdb
+
+# Environment files
+.env
+.env.local
+
+# Documentation
+/doc/
+/docs/
+
+# Test coverage
+/coverage/
+/tarpaulin-report.html
+
+# Dependencies
+/vendor/
+
+# Logs
+*.log
+/logs/
+
+# Backup files
+*.bak
+*~
