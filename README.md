@@ -16,7 +16,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-bloomfilter-rs = { git = "https://github.com/你的用户名/bloomfilter-rs" }
+bloomfilter-rs = { git = "https://github.com/dierbei/bloomfilter-rs" }
 ```
 
 ## Usage
